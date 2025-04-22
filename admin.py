@@ -1,7 +1,4 @@
-from sqlalchemy import (
-    JSON, Boolean, Column, Date, DateTime, Float, ForeignKey,
-    Integer, String, Table, Text, Time, select, update
-)
+from sqlalchemy import select, update
 
 from fastadmin import (
     SqlAlchemyInlineModelAdmin, SqlAlchemyModelAdmin,

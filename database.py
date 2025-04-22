@@ -1,7 +1,5 @@
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker
-
 from passlib.context import CryptContext
-
 
 
 sqlalchemy_engine = create_async_engine("sqlite+aiosqlite:///./test.db", echo=True)
